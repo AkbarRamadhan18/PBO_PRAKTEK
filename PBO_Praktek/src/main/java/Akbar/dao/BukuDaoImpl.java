@@ -17,6 +17,8 @@ public class BukuDaoImpl implements BukuDao{
     
         public BukuDaoImpl(){
             data.add(new Buku ("001","Buku Java","Pak Ervan","Politeknik Negeri Padang"));
+            data.add(new Buku ("002","Laskar Bintang","Akbar","erlangga"));
+            
         }
         
         public   void insert(Buku buku) {
